@@ -1,0 +1,22 @@
+{
+  "Godot Node Class": {
+    "prefix": "gnode",
+    "body": [
+      "using Godot;",
+      "using System;",
+      "",
+      "public partial class ${1:ClassName} : ${2:Node}",
+      "{",
+      "\tpublic override void _Ready()",
+      "\t{",
+      "\t\t$0",
+      "\t}",
+      "",
+      "\tpublic override void _Process(double delta)",
+      "\t{",
+      "\t}",
+      "}"
+    ],
+    "description": "Basic Godot C# Node boilerplate"
+  }
+}
